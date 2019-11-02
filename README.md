@@ -1,15 +1,11 @@
-# Notebooks and recipes for creating custom entity recognizer for Amazon comprehend.
+# Amazon comprehend의 custom entity recognizer 생성을 위한 노트북과 레시피
 
-Here are below the companion notebooks for the blog post called "Build a custom entity recognizer using Amazon Comprehend"
-https://aws.amazon.com/blogs/machine-learning/build-a-custom-entity-recognizer-using-amazon-comprehend/
+## 본 문서는 [Notebooks and recipes for creating custom entity recognizer for Amazon comprehend](https://github.com/aws-samples/amazon-comprehend-custom-entity)의 한국어 버전이며, 원본과 다른 점은 아래와 같습니다. 
+- 오류가 발생한 코드 수정
+- 부족한 설명과 이미지 추가
 
-Notebooks:
-- 1-AWS-Comprehend-Custom-Entities.ipynb
-- 2-BlazingText-Word2Vec-Telco-tweents.ipynb
-- 3-AWS-Comprehend-Negative-Intent-Recognizer.ipynb
+## 노트북:
+- 1. [Comprehend에서 데이터셋 준비와 Custom entity recognizer 실행하기](1-AWS-Comprehend-Custom-Entities.ipynb)
+- 2. [BlazingText를 이용해 twitter 데이터셋의 워드임베딩 생성하기](2-BlazingText-Word2Vec-Telco-tweents.ipynb)
+- 3. [Comprehend에서의 부정적 감정 인식](3-AWS-Comprehend-Negative-Intent-Recognizer.ipynb)
 
-First Notebook shows you how to train a custom entity recognizer from a list of smartphone devices.
-<br /><br />
-Second Notebook shows you how to train a Word2Vec model using the twitter dataset.
-<br /><br />
-Third Notebook leverages the keywords generated from the second notebook to create a negative intent recognizer.
